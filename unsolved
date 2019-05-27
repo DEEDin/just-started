@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int i = 4;
+    double d = 4.0;
+    char s[] = "HackerRank "
+    int a=12,e;
+    double b=4.0,f;
+    char s1[]=" is the best place to learn and practice coding!";
+    int a1=4;
+    double b1=4.0;
+    char s2[]="HackerRank"; // Declare second integer, double, and String variables.
+    
+    // Read and save an integer, double, and String to your variables.
+    e=a+a1;
+    printf("%d\n",e);
+    f=b+b1;
+    printf("%f\n",f);
+    //Print the sum of both integer variables on a new line.
+    
+    // Print the sum of the double variables on a new line.
+    
+    strcat(s,s1);
+    printf("%s",s1);
+    // Concatenate and print the String variables on a new line
+    // The 's' variable above should be printed first.
+
+    return 0;
+}
